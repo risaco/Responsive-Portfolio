@@ -261,6 +261,100 @@ input[type=submit] {
 
 /* Media Queries for site responsiveness */
 
+@media screen and (max-width: 960px) {
+	.headerArea, .bodyArea, .container, header {
+		width: 100%;
+	}
+
+	.sectionBox {
+		width: 67%;
+	}
+
+	.asideBox {
+		width: 26%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	.headerArea, .bodyArea, .container, header {
+		width: 100%;
+		clear: both;
+
+	}
+	
+	#nameBox {
+		width: 100%;
+		text-align: center;
+	}
+
+	nav {
+		clear: both;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+	.sectionBox,
+	.asideBox {
+		clear: both;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#sectionTitle,
+	#asideTitle,
+	.asideBox {
+		width: 100%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/* Portfolio Page */
+	.pContainer {
+		position: static;
+		width: 274px;
+		height: 200px;
+		float: left;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	img.project {
+		display: block;
+	  	max-width: 275px;
+	  	max-height: 200px;
+	  	width: auto;
+	  	height: auto;
+	  	float: left;
+	}
+
+	#project1, #project3, #project5 {
+		margin-right: 40px;
+	}
+
+	.pBox {
+		position: absolute;
+		background-color: #4aaaa5;
+		color: white;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		width: 267px;
+		height: 60px;
+		text-align: center;
+		float: left;
+		margin-top: 130px;
+	}
+
+	h3 {
+		font-weight: normal;
+		font-size: 20px;
+	}
+}
+
 @media screen and (max-width: 640px) {
 
 	.headerArea, .bodyArea, .container, header {
@@ -298,4 +392,46 @@ input[type=submit] {
 		margin-left: auto;
 		margin-right: auto;
 	}
+
+	/* Portfolio Page */
+	.pContainer {
+		position: static;
+		width: 250px;
+		height: 175px;
+		float: left;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	img.project {
+		display: block;
+	  	max-width: 250px;
+	  	max-height: 175px;
+	  	width: auto;
+	  	height: auto;
+	  	float: left;
+	}
+
+	#project1, #project3, #project5 {
+		margin-right: 27px;
+	}
+
+	.pBox {
+		position: absolute;
+		background-color: #4aaaa5;
+		color: white;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		width: 233px;
+		height: 60px;
+		text-align: center;
+		float: left;
+		margin-top: 100px;
+	}
+
+	h3 {
+		font-weight: normal;
+		font-size: 20px;
+	}
+
+
 }
