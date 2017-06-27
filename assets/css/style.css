@@ -1,0 +1,275 @@
+/* On Every Page */
+
+.container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.headerArea {
+	background-color: #ffffff;
+	width: 100%;
+	border-bottom: 3px solid #cccccc;
+	float: left;
+}
+
+header {
+	background-color: #ffffff;
+	width: 960px;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	padding: 0px;
+	
+	
+}
+
+#nameBox {
+	background-color: #4aaaa5;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 25px;
+	float: left;
+
+}
+
+nav {
+	background-color: #ffffff;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: right;
+	width: 300px;
+	margin-top: 0px;
+	padding-right: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	float: right;
+}
+
+ul.menu li {
+	display: inline;
+
+}
+
+a {
+	text-decoration: none;
+	color: #777777;
+}
+
+#about {
+	padding-right: 20px;
+	border-right: 1px solid #cccccc;
+}
+
+#portfolio {
+	padding-left: 20px;
+	padding-right: 20px;
+	border-right: 1px solid #cccccc;
+}
+
+#contact {
+	padding-left: 20px;
+}
+
+
+div.bodyArea {
+	clear: both;
+	width: 100%;
+	background-image: url(img/../../images/light_grey/light_grey_@2X.jpg);
+	padding-top: 40px;
+	float: left;
+}
+
+.sectionBox {
+	width: 650px;
+	background-color: #ffffff;
+	margin: 0px;
+	margin-bottom: 40px;
+	box-sizing: border-box;
+	padding: 30px;
+	float: left;
+}
+
+h2 {
+	
+	color: #4aaaa5;
+	padding-bottom: 20px;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+#sectionTitle {
+	border-bottom: 3px solid #cccccc;
+	font-size: xx-large;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.profilePhoto {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 175px;
+}
+
+p {
+	margin: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	line-height: 27px;
+	padding-right: 10px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	clear: right;
+}
+
+.pContainer {
+	position: relative;
+	width: 274px;
+	height: 200px;
+	float: left;
+	margin-bottom: 50px;
+}
+
+/* Portfolio Page */
+
+img.project {
+	display: block;
+  	max-width: 275px;
+  	max-height: 200px;
+  	width: auto;
+  	height: auto;
+  	float: left;
+}
+
+#project1, #project3, #project5 {
+	margin-right: 40px;
+}
+
+.pBox {
+	position: absolute;
+	background-color: #4aaaa5;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	width: 267px;
+	height: 60px;
+	text-align: center;
+	float: left;
+	margin-top: 130px;
+}
+
+h3 {
+	font-weight: normal;
+	font-size: 20px;
+}
+
+/* Sidebar */
+
+.asideBox {
+	width: 250px;
+	background-color: #ffffff;
+	margin: 0px;
+	margin-left: 40px;
+	box-sizing: border-box;
+	padding: 20px;
+	float: left;
+}
+
+#asideTitle {
+	border-bottom: 1px solid #cccccc;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Resize image while maintaining Aspect Ratio */
+img.iconBox {
+  	max-width: 52px;
+  	max-height: 52px;
+  	width: auto;
+  	height: auto;
+}
+
+#icon3 {
+	box-sizing: border-box;
+	padding: 2px;
+
+}
+
+footer {
+	clear: both;
+	background-color: #666666;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: x-small;
+}
+
+/* contact page */
+
+#contact-form ul {
+  margin-bottom: 20px;
+}
+
+ul.contactForm li {
+	display: block;
+}
+
+#contact-form li {
+  margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
+}
+
+/* Media Queries for site responsiveness */
+
+@media screen and (max-width: 640px) {
+
+	.headerArea, .bodyArea, .container, header {
+		width: 100%;
+		clear: both;
+
+	}
+	
+	#nameBox {
+		width: 100%;
+	}
+}
