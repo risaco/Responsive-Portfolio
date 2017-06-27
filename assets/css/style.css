@@ -271,5 +271,31 @@ input[type=submit] {
 	
 	#nameBox {
 		width: 100%;
+		text-align: center;
+	}
+
+	nav {
+		clear: both;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+	.sectionBox,
+	.asideBox {
+		clear: both;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#sectionTitle,
+	#asideTitle,
+	.asideBox {
+		width: 100%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
