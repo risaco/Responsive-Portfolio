@@ -225,6 +225,7 @@ footer {
 
 ul.contactForm li {
 	display: block;
+
 }
 
 #contact-form li {
@@ -263,19 +264,89 @@ input[type=submit] {
 
 /* Media Queries for site responsiveness */
 
-/*@media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {
 	.headerArea, .bodyArea, .container, header {
 		width: 100%;
 	}
 
 	.sectionBox {
-		width: 67%;
+		width: 60%;
+	}
+
+	#nameBox {
+		width: 30%;
+		text-align: center;
+
+	}
+
+	nav {
+		/*clear: both;*/
+		width: 40%;
+		margin-left: auto;
+		margin-right: auto; 
+		text-align: center;
+		padding-top: 10px;
+		padding-right: 20px;
+	}
+
+	ul.menu {
+		padding-left: 0px;
 	}
 
 	.asideBox {
-		width: 26%;
+		width: 30%;
 	}
-}*/
+ 	
+ 	/*Portfolio Page */
+	.pContainer {
+		position: relative;
+		width: 45%;
+		height: 45%;
+		float: left;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: yellow;
+	}
+
+	img.project {
+		display: block;
+	  	max-width: 100%;
+	  	max-height: 100%;
+	  	width: auto;
+	  	height: auto;
+	  	float: left;
+	}
+
+	#project1, #project3, #project5 {
+		margin-right: 10%;
+	}
+
+	.pBox {
+		position: relative;
+		background-color: #4aaaa5;
+		color: white;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		width: 100%;
+		height: 20%;
+
+		text-align: center;
+		float: left;
+		margin-top: -20%;
+	}
+
+	h3 {
+		font-weight: normal;
+		font-size: 20px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.contactForm {
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+}
 
 @media screen and (max-width: 768px) {
 
@@ -284,6 +355,7 @@ input[type=submit] {
 		/*clear: both;*/
 
 	}
+
 	
 	#nameBox {
 		width: 30%;
@@ -338,7 +410,7 @@ input[type=submit] {
 		margin-bottom: 50px;
 		margin-left: auto;
 		margin-right: auto;
-		background-color: yellow;
+		/*background-color: yellow;*/
 	}
 
 	img.project {
